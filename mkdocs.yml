@@ -1,0 +1,24 @@
+site_name: GXPay Documentation
+theme:
+  name: material
+  custom_dir: docs 
+  extra_templates:
+    - main.html
+  palette:
+    primary: green
+  language: en
+  logo: assets/logo2.png
+  features:
+    - content.action.edit
+  theme:
+    icon:
+      edit: material/pencil 
+      view: material/eye
+  extra:
+    edit_uri: http://git.ttc87.net/Ravindu/gxpay_documentation/-/edit/master/docs/index.md
+    # edit_uri: "https://github.com/wso2/docs-apim/edit/4.2.0/en/docs/get-started/overview.md"
+nav:
+  - Section:
+    - ./index.md 
+    - Page 1: ./page1.md
+    - Page 2: ./page2.md
